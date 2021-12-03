@@ -1,0 +1,70 @@
+.displayBlock {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.displayBlock--container {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 28px;
+  height: 80%;
+  width: 80%;
+}
+.header {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.displayBlock--left {
+  border-right: 1px solid black;
+  height: 100%;
+  width: 100%;
+}
+.displayArea {
+  height: 95%;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+.total{
+  padding-top: 5px;
+}
+.buttonRow {
+  display: flex;
+  justify-content: space-around;
+}
+.selectedBlock {
+  border-top: 1px solid black;
+  margin-top: 30px;
+  display: flex;
+  flex-flow: column;
+}
+.square {
+  height: 50px;
+  width: 50px;
+  min-width: 50px;
+  border: 1px solid black;
+  background-color: rgb(165, 165, 255);
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.rowsInput{
+  width: 60px;
+}
+.p-20 {
+  padding: 20px;
+}
+.flex {
+  display: flex;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
